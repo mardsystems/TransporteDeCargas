@@ -4,6 +4,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <UserSecretsId>252039fe-42ab-4371-b0aa-797073846280</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <RootNamespace>TransporteDeCargas</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
