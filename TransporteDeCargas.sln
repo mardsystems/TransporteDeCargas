@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransporteDeCargas.Api", "TransporteDeCargas.Api\TransporteDeCargas.Api.csproj", "{41B12B16-00EE-445B-955D-B97B07D08740}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransporteDeCargas.Api", "TransporteDeCargas.Api\TransporteDeCargas.Api.csproj", "{41B12B16-00EE-445B-955D-B97B07D08740}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Apresentação", "1 - Apresentação", "{86B93F25-C3FB-43F0-89A1-75312633F84E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Aplicação", "2 - Aplicação", "{0E01028A-8F0B-41FB-BB2B-078420EAC8E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domínio", "3 - Domínio", "{BA65E22D-B37E-4AAC-B610-FE1AC442CA67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infraestrutura", "4 - Infraestrutura", "{628DAD15-6EB3-4BCE-8316-08524737C1E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Dependências Externas", "5 - Dependências Externas", "{9088D762-2237-4D55-BDA1-2F26E2D95E1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Documentação", "6 - Documentação", "{9F7A5585-D10C-4CF6-A0C8-48B10D25D098}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +30,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{41B12B16-00EE-445B-955D-B97B07D08740} = {86B93F25-C3FB-43F0-89A1-75312633F84E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A572D52C-C53B-4828-85D7-567811936C9A}
